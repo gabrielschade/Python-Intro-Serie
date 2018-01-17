@@ -13,7 +13,7 @@ Considere que os valores iniciais de a, b e c são,
 respecitvamente, 4, 6 e 10. Depois disso exiba o resultado."""
 
 a = 4
-b = 6
-c = 10
+b = 6.5
+c = 10.5
 z = a * a - b + c
 print(z)
