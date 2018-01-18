@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6443eb61-702a-4365-818a-443a9d79a562</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>01-VariaveisTiposIO.py</StartupFile>
+    <StartupFile>02-DesvioCondicional.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="01-VariaveisTiposIO.py" />
+    <Compile Include="02-DesvioCondicional.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
