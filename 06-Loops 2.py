@@ -129,82 +129,101 @@ while posicao < len(numeros):
 
 
 
-"""
-Faça um programa que inicialize uma lista vazia, 
-solicite ao usuário 10 números ímpares diferentes, um por vez. 
+#"""
+#Faça um programa que inicialize uma lista vazia, 
+#solicite ao usuário 10 números ímpares diferentes, um por vez. 
 
-Caso o número digitado seja par, solicite novamente um número, até que o valor seja um número ímpar. 
-Depois disso, exiba os 10 números digitados.
-"""
-numeros = []
-numero = 0
-quantidade_sobrando = 10
-while quantidade_sobrando > 0:
-    numero = 0
-    while numero % 2 == 0:
-        numero = int( input("Digite um número ímpar: ") )
+#Caso o número digitado seja par, solicite novamente um número, até que o valor seja um número ímpar. 
+#Depois disso, exiba os 10 números digitados.
+#"""
+#numeros = []
+#numero = 0
+#quantidade_sobrando = 10
+#while quantidade_sobrando > 0:
+#    numero = 0
+#    while numero % 2 == 0:
+#        numero = int( input("Digite um número ímpar: ") )
 
-    numeros.append(numero)
-    quantidade_sobrando -= 1
+#    numeros.append(numero)
+#    quantidade_sobrando -= 1
 
-posicao = 0
+#posicao = 0
     
+#while posicao < len(numeros):
+#    print(numeros[posicao])
+#    posicao += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#"""
+#Faça um programa que exiba um menu para o usuário selecionar uma das três opções:
+# * 1 - Olá mundo
+# * 2 - Eu programo em Python
+# * 3 - Laços de repetição
+
+#O programa deve solicitar ao usuário uma das 3 opções, 
+#caso o usuário digite um valor diferente das opções (1, 2 ou 3), 
+#o programa deve apresentar novamente o menu de opções até que uma delas seja escolhida.
+#Por fim, o programa deve exibir uma mensagem diferente para cada opção.
+#"""
+#opcao = 0
+#opcoes = [1, 2, 3]
+#while opcao not in opcoes:
+#    print("Selecione uma das opções abaixo: ")
+#    print("1 - Olá mundo ")
+#    print("2 - Eu programo em Python ")
+#    print("3 - Laços de repetição ")
+#    opcao = int ( input ("Selecione a opção: ") )
+
+#if opcao == 1:
+#    print("Olá mundo!")
+#elif opcao == 2:
+#    print("Já estou na minha sexta lição de Python!")
+#else:
+#    print("Nesta lição estou estudando o laço de repetição While")
+
+
+"""
+Remove a instrução `break` e a instrução `continue` do laço de repetição abaixo:
+"""
+# antes:
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+posicao = 0
 while posicao < len(numeros):
-    print(numeros[posicao])
     posicao += 1
+    if posicao == 3:
+        continue
+    elif posicao == 6:
+        break
+    print(numeros[posicao-1])
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-Faça um programa que exiba um menu para o usuário selecionar uma das três opções:
- * 1 - Olá mundo
- * 2 - Eu programo em Python
- * 3 - Laços de repetição
-
-O programa deve solicitar ao usuário uma das 3 opções, 
-caso o usuário digite um valor diferente das opções (1, 2 ou 3), 
-o programa deve apresentar novamente o menu de opções até que uma delas seja escolhida.
-Por fim, o programa deve exibir uma mensagem diferente para cada opção.
-"""
-opcao = 0
-opcoes = [1, 2, 3]
-while opcao not in opcoes:
-    print("Selecione uma das opções abaixo: ")
-    print("1 - Olá mundo ")
-    print("2 - Eu programo em Python ")
-    print("3 - Laços de repetição ")
-    opcao = int ( input ("Selecione a opção: ") )
-
-if opcao == 1:
-    print("Olá mundo!")
-elif opcao == 2:
-    print("Já estou na minha sexta lição de Python!")
-else:
-    print("Nesta lição estou estudando o laço de repetição While")
-
-
-
-
-
-
+# depois:
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+posicao = 0
+while posicao < 5:
+    if posicao != 2:
+        print(numeros[posicao])
+    posicao += 1
+    
 
 
 
