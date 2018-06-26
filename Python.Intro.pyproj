@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6443eb61-702a-4365-818a-443a9d79a562</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>08-Funcoes.py</StartupFile>
+    <StartupFile>09-Funcoes-2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,7 @@
     <Compile Include="04-Listas.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="09-Funcoes-2.py" />
     <Compile Include="08-Funcoes.py">
       <SubType>Code</SubType>
     </Compile>
